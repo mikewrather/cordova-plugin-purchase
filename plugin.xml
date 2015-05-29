@@ -24,7 +24,7 @@ SOFTWARE.
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cc.fovea.cordova.purchase"
+    id="com.mcsqd.purchase"
     version="3.11.0">
 
     <name>Purchase</name>
