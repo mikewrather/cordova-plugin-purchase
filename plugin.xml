@@ -88,6 +88,7 @@ SOFTWARE.
         </config-file>
 
         <!-- In-app Billing Library -->
+        <framework src="build-extras.gradle" custom="true" type="gradleReference"/>
 		<source-file src="src/android/com/android/vending/billing/IInAppBillingService.aidl" target-dir="src/com/android/vending/billing" />
 
         <!-- cordova plugin src files -->
