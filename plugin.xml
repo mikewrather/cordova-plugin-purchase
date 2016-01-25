@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.mcsqd.purchase"
-    version="3.11.0">
+    version="3.11.1">
 
     <name>Purchase</name>
 	<description>Cordova Purchase plugin for iOS and Android (AppStore and PlayStore)</description>
