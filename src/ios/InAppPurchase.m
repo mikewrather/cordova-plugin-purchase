@@ -493,9 +493,10 @@ unsigned char* unbase64( const char* ascii, int len, int *flen )
                                  NILABLE(productId),
                                  NILABLE(transactionReceipt),
                                  nil];
-        NSString *js = [NSString
-            stringWithFormat:@"window.storekit.updatedTransactionCallback.apply(window.storekit, %@)",
-            [callbackArgs JSONSerialize]];
+        NSString *js = [NSString 
+            stringWithFormat:@"window.storekit.updatedTransactionCallback.apply(window.storekit, ['%@'])", 
+            [callbackArgs componentsJoinedByString:@"','"]];
+            
         // DLog(@"js: %@", js);
         [self.commandDelegate evalJs:js];
 
