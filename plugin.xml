@@ -22,18 +22,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
+<!-- All I did was updated the urls so they don't point to the branch that was broken -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.mcsqd.purchase"
+    id="com.mikew.purchase"
     version="4.0.1">
     <name>Purchase</name>
 	<description>Cordova Purchase plugin for iOS and Android (AppStore and PlayStore)</description>
     <engines>
         <engine name="cordova" version=">=2.4.0" />
     </engines>
-    <repo>https://github.com/j3k0/cordova-plugin-purchase.git</repo>
-    <issue>https://github.com/j3k0/cordova-plugin-purchase/issues</issue>
+    <repo>https://github.com/mikewrather/cordova-plugin-purchase.git</repo>
+    <issue>https://github.com/mikewrather/cordova-plugin-purchase/issues</issue>
 
 	<license>MIT</license>
     <keywords>cordova,phonegap,purchase,storekit,ios,android,play,appstore</keywords>
